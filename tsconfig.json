@@ -1,0 +1,17 @@
+{
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
+  "compilerOptions": {
+    "target": "es6", // or "es2017" or later
+    "module": "commonjs", // Use ESNext or ES2020 for ESM support
+    "strict": true,
+    "moduleResolution": "node", // Use nodeNext for better support
+    "esModuleInterop": true, // Enable interop between CommonJS and ES modules
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules without default export
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  }
+}
